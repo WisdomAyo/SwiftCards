@@ -1,0 +1,25 @@
+.back-to-top {
+    display: none !important;
+}
+#site-header {
+    margin-top: 30px;
+}
+
+.active {
+    color: #ffba00;
+}
+
+.b {
+    border-radius: 19px 0px 0px 0px;
+}
+
+@media (max-width: 768px)
+{.site-logo img {
+    max-width: 150px !important;
+}}
+
+@media (max-width: 1300px)
+{.site-logo img {
+    margin-right: 8px;
+    max-width: 150px !important; 
+}}
